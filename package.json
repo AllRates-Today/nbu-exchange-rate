@@ -1,7 +1,7 @@
 {
   "name": "nbu-exchange-rate",
-  "version": "1.0.2",
-  "description": "Official National Bank of Ukraine (Ukraine) daily exchange rates — ~45 currencies vs UAH, history since 1996. Zero-dependency Node.js/TypeScript client.",
+  "version": "1.1.2",
+  "description": "Official National Bank of Ukraine (Ukraine) daily exchange rates — 45 currencies vs UAH, history since 1996. Zero-dependency Node.js/TypeScript client.",
   "keywords": [
     "nbu",
     "national",
