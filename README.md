@@ -85,10 +85,10 @@ const pair = await getRate('USD', 'UAH', { apiKey: 'art_live_...' });
 {
   bank: 'nbu',
   name: 'National Bank of Ukraine',
-  rate_date: '2026-09-28',   // National Bank of Ukraine's own publication date
+  rate_date: '2026-10-02',   // National Bank of Ukraine's own publication date
   source: 'USD',
   target: 'UAH',
-  rate: 44.8414,
+  rate: 44.8333,
   rate_type: 'reference',
   derived: false,
   method: 'published',
@@ -113,9 +113,9 @@ console.log(table.rate_date, table.rates.length);
 {
   bank: 'nbu',
   name: 'National Bank of Ukraine',
-  rate_date: '2026-09-28',
+  rate_date: '2026-10-02',
   rates: [
-    { "base": "USD", "quote": "UAH", "type": "reference", "value": 44.8414 },
+    { "base": "USD", "quote": "UAH", "type": "reference", "value": 44.8333 },
     // … the rest of the published table (45 currencies vs UAH)
   ],
   disclaimer: '…'
@@ -155,7 +155,7 @@ Paid plans. One resolved rate per publication date — ready for charting, reval
 import { getHistory } from 'nbu-exchange-rate';
 
 const series = await getHistory(
-  { source: 'USD', target: 'UAH', from: '2026-01-01', to: '2026-09-28' },
+  { source: 'USD', target: 'UAH', from: '2026-01-01', to: '2026-10-02' },
   { apiKey: 'art_live_...' }
 );
 ```
@@ -168,11 +168,11 @@ const series = await getHistory(
   source: 'USD',
   target: 'UAH',
   from: '2026-01-01',
-  to: '2026-09-28',
+  to: '2026-10-02',
   count: 152,
   rates: [
     // one entry per publication date
-    { date: '2026-09-28', rate: 44.8414, rate_type: 'reference', derived: false, method: 'published' },
+    { date: '2026-10-02', rate: 44.8333, rate_type: 'reference', derived: false, method: 'published' },
     // …
   ],
   disclaimer: '…'
