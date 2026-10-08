@@ -85,10 +85,10 @@ const pair = await getRate('USD', 'UAH', { apiKey: 'art_live_...' });
 {
   bank: 'nbu',
   name: 'National Bank of Ukraine',
-  rate_date: '2026-10-02',   // National Bank of Ukraine's own publication date
+  rate_date: '2026-10-06',   // National Bank of Ukraine's own publication date
   source: 'USD',
   target: 'UAH',
-  rate: 44.8333,
+  rate: 45.0564,
   rate_type: 'reference',
   derived: false,
   method: 'published',
@@ -113,9 +113,9 @@ console.log(table.rate_date, table.rates.length);
 {
   bank: 'nbu',
   name: 'National Bank of Ukraine',
-  rate_date: '2026-10-02',
+  rate_date: '2026-10-06',
   rates: [
-    { "base": "USD", "quote": "UAH", "type": "reference", "value": 44.8333 },
+    { "base": "USD", "quote": "UAH", "type": "reference", "value": 45.0564 },
     // … the rest of the published table (45 currencies vs UAH)
   ],
   disclaimer: '…'
@@ -155,7 +155,7 @@ Paid plans. One resolved rate per publication date — ready for charting, reval
 import { getHistory } from 'nbu-exchange-rate';
 
 const series = await getHistory(
-  { source: 'USD', target: 'UAH', from: '2026-01-01', to: '2026-10-02' },
+  { source: 'USD', target: 'UAH', from: '2026-01-01', to: '2026-10-06' },
   { apiKey: 'art_live_...' }
 );
 ```
@@ -168,11 +168,11 @@ const series = await getHistory(
   source: 'USD',
   target: 'UAH',
   from: '2026-01-01',
-  to: '2026-10-02',
+  to: '2026-10-06',
   count: 152,
   rates: [
     // one entry per publication date
-    { date: '2026-10-02', rate: 44.8333, rate_type: 'reference', derived: false, method: 'published' },
+    { date: '2026-10-06', rate: 45.0564, rate_type: 'reference', derived: false, method: 'published' },
     // …
   ],
   disclaimer: '…'
@@ -222,6 +222,7 @@ curl "https://allratestoday.com/api/v1/central-bank/nbu/latest?format=xml&api_ke
 
 - MCP server: `npx -y @allratestoday/central-bank-mcp` (stdio) or the hosted endpoint `https://allratestoday.com/api/mcp` — tools for official rates, history, cross-bank comparison and publication calendars
 - Already using the general SDK or MCP server? Since 2026-10-01 [`@allratestoday/sdk`](https://www.npmjs.com/package/@allratestoday/sdk) 1.4+ has `officialRates('nbu')` and [`@allratestoday/mcp-server`](https://www.npmjs.com/package/@allratestoday/mcp-server) 0.6+ has a `get_official_rates` tool — both return this source's latest table with no key, so you can add it without a second dependency
+- Claude Code plugin (no key): `/plugin marketplace add AllRates-Today/claude-code-plugin` then `/plugin install allratestoday@allratestoday` — bundles both MCP servers plus an `/official-rate nbu ...` command
 - Machine-readable site guide: [llms.txt](https://allratestoday.com/llms.txt) · [for-ai-agents](https://allratestoday.com/for-ai-agents/)
 
 ## ⚖️ Published vs derived rates
