@@ -4,6 +4,8 @@
 [![license](https://img.shields.io/npm/l/nbu-exchange-rate.svg)](https://github.com/AllRates-Today/nbu-exchange-rate/blob/main/LICENSE)
 [![zero dependencies](https://img.shields.io/badge/dependencies-0-brightgreen.svg)](https://www.npmjs.com/package/nbu-exchange-rate)
 [![TypeScript](https://img.shields.io/badge/TypeScript-types%20included-3178C6.svg)](https://www.typescriptlang.org/)
+[![USD/UAH today](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fallratestoday.com%2Fapi%2Fopen%2Fcentral-bank%2Fnbu%3Fsource%3DUSD%26target%3DUAH&query=%24.rate&label=USD%2FUAH%20published%20by%20National%20Bank%20of%20Ukraine&color=0A7E8C&cacheSeconds=3600)](https://allratestoday.com/central-bank-rates-api/nbu/)
+[![rate date](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fallratestoday.com%2Fapi%2Fopen%2Fcentral-bank%2Fnbu%3Fsource%3DUSD%26target%3DUAH&query=%24.rate_date&label=rate%20date&color=555&cacheSeconds=3600)](https://allratestoday.com/central-bank-rates-api/nbu/)
 
 **Official National Bank of Ukraine (Ukraine) daily exchange rates for Node.js and TypeScript. The published central bank rates behind tax filings, customs valuations, audits, and compliant invoicing — not market estimates, but the numbers National Bank of Ukraine itself prints, every business day.**
 
@@ -32,6 +34,64 @@ console.log(r.rate_date, r.rates.length); // the central bank's latest published
 ```
 
 The open endpoint serves the *latest* table only and asks for a visible attribution link. The client below uses the keyed API, which adds point-in-time tables, history, and CSV/XML/Excel output.
+
+## 📈 Latest published table
+
+Today's full National Bank of Ukraine table, straight from the central bank's latest publication. On GitHub it is refreshed by [a daily Action](.github/workflows/daily-table.yml) that reads the keyless endpoint above and commits only when the central bank publishes a new table; the copy on npm is as of the package's publish date.
+
+<!-- daily-table:start -->
+Published **2026-10-06** by National Bank of Ukraine — 45 rates. Updated 2026-10-08.
+
+| Base | Quote | Type | Rate |
+| --- | --- | --- | ---: |
+| AED | UAH | reference | 12.2671 |
+| AUD | UAH | reference | 31.3561 |
+| AZN | UAH | reference | 26.5038 |
+| BDT | UAH | reference | 0.36655 |
+| CAD | UAH | reference | 31.5975 |
+| CHF | UAH | reference | 54.2071 |
+| CNY | UAH | reference | 6.7188 |
+| CZK | UAH | reference | 2.0646 |
+| DKK | UAH | reference | 6.7541 |
+| DZD | UAH | reference | 0.33539 |
+| EGP | UAH | reference | 0.8593 |
+| EUR | UAH | reference | 50.483 |
+| GBP | UAH | reference | 59.5929 |
+| GEL | UAH | reference | 17.3194 |
+| HKD | UAH | reference | 5.7416 |
+| HUF | UAH | reference | 0.13724 |
+| IDR | UAH | reference | 0.0025147 |
+| ILS | UAH | reference | 14.7137 |
+| INR | UAH | reference | 0.46788 |
+| JPY | UAH | reference | 0.28475 |
+| KRW | UAH | reference | 0.033529 |
+| KZT | UAH | reference | 0.098552 |
+| LBP | UAH | reference | 0.000503 |
+| MDL | UAH | reference | 2.5176 |
+| MXN | UAH | reference | 2.4835 |
+| MYR | UAH | reference | 11.0282 |
+| NOK | UAH | reference | 4.6915 |
+| NZD | UAH | reference | 25.1852 |
+| PLN | UAH | reference | 11.5256 |
+| RON | UAH | reference | 9.4602 |
+| RSD | UAH | reference | 0.42974 |
+| SAR | UAH | reference | 12.0019 |
+| SEK | UAH | reference | 4.4856 |
+| SGD | UAH | reference | 35.189 |
+| THB | UAH | reference | 1.33738 |
+| TND | UAH | reference | 14.9951 |
+| TRY | UAH | reference | 0.9166 |
+| USD | UAH | reference | 45.0564 |
+| VND | UAH | reference | 0.0017331 |
+| XAG | UAH | reference | 2778.08 |
+| XAU | UAH | reference | 187196.86 |
+| XDR | UAH | reference | 60.9542 |
+| XPD | UAH | reference | 53251.21 |
+| XPT | UAH | reference | 77950.55 |
+| ZAR | UAH | reference | 2.7088 |
+
+Source: [Official rates published by NBU, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/nbu/). Rates are as printed by the central bank; AllRatesToday is not affiliated with it.
+<!-- daily-table:end -->
 
 ## 🔑 Get your API key
 
