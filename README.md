@@ -42,55 +42,55 @@ The open endpoint serves the *latest* table only and asks for a visible attribut
 The image is rendered live from the keyless endpoint above, so it follows the central bank's publications on npm and on GitHub alike without a new release. The text copy below is there for search and copy-paste: on GitHub [a daily Action](.github/workflows/daily-table.yml) refreshes it whenever the central bank publishes a new table; on npm it is as of the package's publish date.
 
 <!-- daily-table:start -->
-Published **2026-10-13** by National Bank of Ukraine — 45 rates. Updated 2026-10-13.
+Published **2026-10-14** by National Bank of Ukraine — 45 rates. Updated 2026-10-14.
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AED | UAH | reference | 12.2396 |
-| AUD | UAH | reference | 31.3429 |
-| AZN | UAH | reference | 26.4451 |
-| BDT | UAH | reference | 0.36507 |
-| CAD | UAH | reference | 31.5141 |
-| CHF | UAH | reference | 53.9696 |
-| CNY | UAH | reference | 6.716 |
-| CZK | UAH | reference | 2.06 |
-| DKK | UAH | reference | 6.7215 |
-| DZD | UAH | reference | 0.33417 |
-| EGP | UAH | reference | 0.8537 |
-| EUR | UAH | reference | 50.2418 |
-| GBP | UAH | reference | 59.4777 |
-| GEL | UAH | reference | 17.311 |
-| HKD | UAH | reference | 5.7288 |
-| HUF | UAH | reference | 0.137559 |
-| IDR | UAH | reference | 0.0025098 |
-| ILS | UAH | reference | 14.6337 |
-| INR | UAH | reference | 0.4695 |
-| JPY | UAH | reference | 0.28349 |
-| KRW | UAH | reference | 0.033714 |
-| KZT | UAH | reference | 0.09988 |
-| LBP | UAH | reference | 0.000502 |
-| MDL | UAH | reference | 2.5085 |
-| MXN | UAH | reference | 2.4476 |
-| MYR | UAH | reference | 11.0077 |
-| NOK | UAH | reference | 4.6984 |
-| NZD | UAH | reference | 25.165 |
-| PLN | UAH | reference | 11.4536 |
-| RON | UAH | reference | 9.4143 |
-| RSD | UAH | reference | 0.42796 |
-| SAR | UAH | reference | 11.9698 |
-| SEK | UAH | reference | 4.4856 |
-| SGD | UAH | reference | 35.1117 |
-| THB | UAH | reference | 1.33716 |
-| TND | UAH | reference | 14.9382 |
-| TRY | UAH | reference | 0.9112 |
-| USD | UAH | reference | 44.9567 |
-| VND | UAH | reference | 0.0017348 |
-| XAG | UAH | reference | 2724.33 |
-| XAU | UAH | reference | 187421.25 |
-| XDR | UAH | reference | 60.7771 |
-| XPD | UAH | reference | 52085.3 |
-| XPT | UAH | reference | 76048.08 |
-| ZAR | UAH | reference | 2.7176 |
+| AED | UAH | reference | 12.2735 |
+| AUD | UAH | reference | 31.4565 |
+| AZN | UAH | reference | 26.5295 |
+| BDT | UAH | reference | 0.36586 |
+| CAD | UAH | reference | 31.6488 |
+| CHF | UAH | reference | 54.1543 |
+| CNY | UAH | reference | 6.7351 |
+| CZK | UAH | reference | 2.0701 |
+| DKK | UAH | reference | 6.7473 |
+| DZD | UAH | reference | 0.33509 |
+| EGP | UAH | reference | 0.8535 |
+| EUR | UAH | reference | 50.438 |
+| GBP | UAH | reference | 59.7092 |
+| GEL | UAH | reference | 17.3653 |
+| HKD | UAH | reference | 5.7442 |
+| HUF | UAH | reference | 0.138522 |
+| IDR | UAH | reference | 0.0025185 |
+| ILS | UAH | reference | 14.6544 |
+| INR | UAH | reference | 0.47311 |
+| JPY | UAH | reference | 0.28504 |
+| KRW | UAH | reference | 0.033615 |
+| KZT | UAH | reference | 0.100379 |
+| LBP | UAH | reference | 0.000503 |
+| MDL | UAH | reference | 2.5079 |
+| MXN | UAH | reference | 2.4642 |
+| MYR | UAH | reference | 11.0345 |
+| NOK | UAH | reference | 4.727 |
+| NZD | UAH | reference | 25.2999 |
+| PLN | UAH | reference | 11.5245 |
+| RON | UAH | reference | 9.4536 |
+| RSD | UAH | reference | 0.42952 |
+| SAR | UAH | reference | 12.0034 |
+| SEK | UAH | reference | 4.5149 |
+| SGD | UAH | reference | 35.2236 |
+| THB | UAH | reference | 1.3424 |
+| TND | UAH | reference | 14.9894 |
+| TRY | UAH | reference | 0.9131 |
+| USD | UAH | reference | 45.0802 |
+| VND | UAH | reference | 0.0017396 |
+| XAG | UAH | reference | 2722.78 |
+| XAU | UAH | reference | 188692.42 |
+| XDR | UAH | reference | 60.9824 |
+| XPD | UAH | reference | 51654.11 |
+| XPT | UAH | reference | 76586.89 |
+| ZAR | UAH | reference | 2.734 |
 
 Source: [Official rates published by NBU, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/nbu/). Rates are as printed by the central bank; AllRatesToday is not affiliated with it.
 <!-- daily-table:end -->
@@ -147,10 +147,10 @@ const pair = await getRate('USD', 'UAH', { apiKey: 'art_live_...' });
 {
   bank: 'nbu',
   name: 'National Bank of Ukraine',
-  rate_date: '2026-10-08',   // National Bank of Ukraine's own publication date
+  rate_date: '2026-10-13',   // National Bank of Ukraine's own publication date
   source: 'USD',
   target: 'UAH',
-  rate: 44.8639,
+  rate: 44.9567,
   rate_type: 'reference',
   derived: false,
   method: 'published',
@@ -175,9 +175,9 @@ console.log(table.rate_date, table.rates.length);
 {
   bank: 'nbu',
   name: 'National Bank of Ukraine',
-  rate_date: '2026-10-08',
+  rate_date: '2026-10-13',
   rates: [
-    { "base": "USD", "quote": "UAH", "type": "reference", "value": 44.8639 },
+    { "base": "USD", "quote": "UAH", "type": "reference", "value": 44.9567 },
     // … the rest of the published table (45 currencies vs UAH)
   ],
   disclaimer: '…'
@@ -217,7 +217,7 @@ Paid plans. One resolved rate per publication date — ready for charting, reval
 import { getHistory } from 'nbu-exchange-rate';
 
 const series = await getHistory(
-  { source: 'USD', target: 'UAH', from: '2026-01-01', to: '2026-10-08' },
+  { source: 'USD', target: 'UAH', from: '2026-01-01', to: '2026-10-13' },
   { apiKey: 'art_live_...' }
 );
 ```
@@ -230,11 +230,11 @@ const series = await getHistory(
   source: 'USD',
   target: 'UAH',
   from: '2026-01-01',
-  to: '2026-10-08',
+  to: '2026-10-13',
   count: 152,
   rates: [
     // one entry per publication date
-    { date: '2026-10-08', rate: 44.8639, rate_type: 'reference', derived: false, method: 'published' },
+    { date: '2026-10-13', rate: 44.9567, rate_type: 'reference', derived: false, method: 'published' },
     // …
   ],
   disclaimer: '…'
@@ -354,9 +354,9 @@ getRate('USD', 'UAH', { apiKey: 'art_live_...' }).then((pair) => console.log(pai
 
 Need the whole archive rather than an API call? The same published tables are mirrored daily as open data:
 
-- Hugging Face: [AllRates/central-bank-exchange-rates](https://huggingface.co/datasets/AllRates/central-bank-exchange-rates) — one CSV per institution (`rates/nbu.csv`)
+- Hugging Face: [AllRatesToday/central-bank-exchange-rates](https://huggingface.co/datasets/AllRatesToday/central-bank-exchange-rates) — one CSV per institution (`rates/nbu.csv`)
 - Kaggle: [allratestoday/central-bank-exchange-rates](https://www.kaggle.com/datasets/allratestoday/central-bank-exchange-rates)
-- CDN JSON: `https://cdn.jsdelivr.net/gh/AllRates-Today/central-bank-exchange-rates@main/data/nbu/latest.json`
+- Raw JSON on GitHub: `https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/nbu/latest.json`
 
 ## 🔗 Links
 
