@@ -42,55 +42,55 @@ The open endpoint serves the *latest* table only and asks for a visible attribut
 The image is rendered live from the keyless endpoint above, so it follows the central bank's publications on npm and on GitHub alike without a new release. The text copy below is there for search and copy-paste: on GitHub [a daily Action](.github/workflows/daily-table.yml) refreshes it whenever the central bank publishes a new table; on npm it is as of the package's publish date.
 
 <!-- daily-table:start -->
-Published **2026-10-14** by National Bank of Ukraine — 45 rates. Updated 2026-10-14.
+Published **2026-10-15** by National Bank of Ukraine — 45 rates. Updated 2026-10-15.
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AED | UAH | reference | 12.2735 |
-| AUD | UAH | reference | 31.4565 |
-| AZN | UAH | reference | 26.5295 |
-| BDT | UAH | reference | 0.36586 |
-| CAD | UAH | reference | 31.6488 |
-| CHF | UAH | reference | 54.1543 |
-| CNY | UAH | reference | 6.7351 |
-| CZK | UAH | reference | 2.0701 |
-| DKK | UAH | reference | 6.7473 |
-| DZD | UAH | reference | 0.33509 |
-| EGP | UAH | reference | 0.8535 |
-| EUR | UAH | reference | 50.438 |
-| GBP | UAH | reference | 59.7092 |
-| GEL | UAH | reference | 17.3653 |
-| HKD | UAH | reference | 5.7442 |
-| HUF | UAH | reference | 0.138522 |
-| IDR | UAH | reference | 0.0025185 |
-| ILS | UAH | reference | 14.6544 |
-| INR | UAH | reference | 0.47311 |
-| JPY | UAH | reference | 0.28504 |
-| KRW | UAH | reference | 0.033615 |
-| KZT | UAH | reference | 0.100379 |
-| LBP | UAH | reference | 0.000503 |
-| MDL | UAH | reference | 2.5079 |
-| MXN | UAH | reference | 2.4642 |
-| MYR | UAH | reference | 11.0345 |
-| NOK | UAH | reference | 4.727 |
-| NZD | UAH | reference | 25.2999 |
-| PLN | UAH | reference | 11.5245 |
-| RON | UAH | reference | 9.4536 |
-| RSD | UAH | reference | 0.42952 |
-| SAR | UAH | reference | 12.0034 |
-| SEK | UAH | reference | 4.5149 |
-| SGD | UAH | reference | 35.2236 |
-| THB | UAH | reference | 1.3424 |
-| TND | UAH | reference | 14.9894 |
-| TRY | UAH | reference | 0.9131 |
-| USD | UAH | reference | 45.0802 |
-| VND | UAH | reference | 0.0017396 |
-| XAG | UAH | reference | 2722.78 |
-| XAU | UAH | reference | 188692.42 |
-| XDR | UAH | reference | 60.9824 |
-| XPD | UAH | reference | 51654.11 |
-| XPT | UAH | reference | 76586.89 |
-| ZAR | UAH | reference | 2.734 |
+| AED | UAH | reference | 12.2461 |
+| AUD | UAH | reference | 31.5171 |
+| AZN | UAH | reference | 26.4628 |
+| BDT | UAH | reference | 0.36457 |
+| CAD | UAH | reference | 31.6329 |
+| CHF | UAH | reference | 53.9899 |
+| CNY | UAH | reference | 6.7194 |
+| CZK | UAH | reference | 2.0669 |
+| DKK | UAH | reference | 6.7349 |
+| DZD | UAH | reference | 0.33437 |
+| EGP | UAH | reference | 0.847 |
+| EUR | UAH | reference | 50.3453 |
+| GBP | UAH | reference | 59.6643 |
+| GEL | UAH | reference | 17.3 |
+| HKD | UAH | reference | 5.7313 |
+| HUF | UAH | reference | 0.13851 |
+| IDR | UAH | reference | 0.0025122 |
+| ILS | UAH | reference | 14.6119 |
+| INR | UAH | reference | 0.47277 |
+| JPY | UAH | reference | 0.28387 |
+| KRW | UAH | reference | 0.033638 |
+| KZT | UAH | reference | 0.099424 |
+| LBP | UAH | reference | 0.000502 |
+| MDL | UAH | reference | 2.5064 |
+| MXN | UAH | reference | 2.4445 |
+| MYR | UAH | reference | 11.0189 |
+| NOK | UAH | reference | 4.7441 |
+| NZD | UAH | reference | 25.2496 |
+| PLN | UAH | reference | 11.5297 |
+| RON | UAH | reference | 9.4209 |
+| RSD | UAH | reference | 0.42874 |
+| SAR | UAH | reference | 11.9807 |
+| SEK | UAH | reference | 4.5117 |
+| SGD | UAH | reference | 35.0711 |
+| THB | UAH | reference | 1.33948 |
+| TND | UAH | reference | 14.9716 |
+| TRY | UAH | reference | 0.9107 |
+| USD | UAH | reference | 44.9801 |
+| VND | UAH | reference | 0.001737 |
+| XAG | UAH | reference | 2630.55 |
+| XAU | UAH | reference | 186190.67 |
+| XDR | UAH | reference | 60.8532 |
+| XPD | UAH | reference | 51083.49 |
+| XPT | UAH | reference | 74393.67 |
+| ZAR | UAH | reference | 2.7282 |
 
 Source: [Official rates published by NBU, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/nbu/). Rates are as printed by the central bank; AllRatesToday is not affiliated with it.
 <!-- daily-table:end -->
