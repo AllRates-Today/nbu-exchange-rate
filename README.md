@@ -42,55 +42,55 @@ The open endpoint serves the *latest* table only and asks for a visible attribut
 The image is rendered live from the keyless endpoint above, so it follows the central bank's publications on npm and on GitHub alike without a new release. The text copy below is there for search and copy-paste: on GitHub [a daily Action](.github/workflows/daily-table.yml) refreshes it whenever the central bank publishes a new table; on npm it is as of the package's publish date.
 
 <!-- daily-table:start -->
-Published **2026-10-15** by National Bank of Ukraine — 45 rates. Updated 2026-10-15.
+Published **2026-10-16** by National Bank of Ukraine — 45 rates. Updated 2026-10-16.
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AED | UAH | reference | 12.2461 |
-| AUD | UAH | reference | 31.5171 |
-| AZN | UAH | reference | 26.4628 |
-| BDT | UAH | reference | 0.36457 |
-| CAD | UAH | reference | 31.6329 |
-| CHF | UAH | reference | 53.9899 |
-| CNY | UAH | reference | 6.7194 |
-| CZK | UAH | reference | 2.0669 |
-| DKK | UAH | reference | 6.7349 |
-| DZD | UAH | reference | 0.33437 |
-| EGP | UAH | reference | 0.847 |
-| EUR | UAH | reference | 50.3453 |
-| GBP | UAH | reference | 59.6643 |
-| GEL | UAH | reference | 17.3 |
-| HKD | UAH | reference | 5.7313 |
-| HUF | UAH | reference | 0.13851 |
-| IDR | UAH | reference | 0.0025122 |
-| ILS | UAH | reference | 14.6119 |
-| INR | UAH | reference | 0.47277 |
-| JPY | UAH | reference | 0.28387 |
-| KRW | UAH | reference | 0.033638 |
-| KZT | UAH | reference | 0.099424 |
-| LBP | UAH | reference | 0.000502 |
-| MDL | UAH | reference | 2.5064 |
-| MXN | UAH | reference | 2.4445 |
-| MYR | UAH | reference | 11.0189 |
-| NOK | UAH | reference | 4.7441 |
-| NZD | UAH | reference | 25.2496 |
-| PLN | UAH | reference | 11.5297 |
-| RON | UAH | reference | 9.4209 |
-| RSD | UAH | reference | 0.42874 |
-| SAR | UAH | reference | 11.9807 |
-| SEK | UAH | reference | 4.5117 |
-| SGD | UAH | reference | 35.0711 |
-| THB | UAH | reference | 1.33948 |
-| TND | UAH | reference | 14.9716 |
-| TRY | UAH | reference | 0.9107 |
-| USD | UAH | reference | 44.9801 |
-| VND | UAH | reference | 0.001737 |
-| XAG | UAH | reference | 2630.55 |
-| XAU | UAH | reference | 186190.67 |
-| XDR | UAH | reference | 60.8532 |
-| XPD | UAH | reference | 51083.49 |
-| XPT | UAH | reference | 74393.67 |
-| ZAR | UAH | reference | 2.7282 |
+| AED | UAH | reference | 12.2208 |
+| AUD | UAH | reference | 31.0282 |
+| AZN | UAH | reference | 26.4081 |
+| BDT | UAH | reference | 0.3645 |
+| CAD | UAH | reference | 31.6004 |
+| CHF | UAH | reference | 54.0698 |
+| CNY | UAH | reference | 6.7084 |
+| CZK | UAH | reference | 2.0661 |
+| DKK | UAH | reference | 6.7302 |
+| DZD | UAH | reference | 0.33343 |
+| EGP | UAH | reference | 0.8395 |
+| EUR | UAH | reference | 50.3081 |
+| GBP | UAH | reference | 59.47 |
+| GEL | UAH | reference | 17.2875 |
+| HKD | UAH | reference | 5.72 |
+| HUF | UAH | reference | 0.138395 |
+| IDR | UAH | reference | 0.0025027 |
+| ILS | UAH | reference | 14.4751 |
+| INR | UAH | reference | 0.47231 |
+| JPY | UAH | reference | 0.28427 |
+| KRW | UAH | reference | 0.03337 |
+| KZT | UAH | reference | 0.099145 |
+| LBP | UAH | reference | 0.000501 |
+| MDL | UAH | reference | 2.5027 |
+| MXN | UAH | reference | 2.4227 |
+| MYR | UAH | reference | 10.9963 |
+| NOK | UAH | reference | 4.7241 |
+| NZD | UAH | reference | 25.1583 |
+| PLN | UAH | reference | 11.5141 |
+| RON | UAH | reference | 9.4299 |
+| RSD | UAH | reference | 0.42844 |
+| SAR | UAH | reference | 11.9608 |
+| SEK | UAH | reference | 4.5018 |
+| SGD | UAH | reference | 34.9915 |
+| THB | UAH | reference | 1.33884 |
+| TND | UAH | reference | 14.9435 |
+| TRY | UAH | reference | 0.9083 |
+| USD | UAH | reference | 44.8871 |
+| VND | UAH | reference | 0.0017346 |
+| XAG | UAH | reference | 2543.75 |
+| XAU | UAH | reference | 186185.54 |
+| XDR | UAH | reference | 60.7631 |
+| XPD | UAH | reference | 50703.57 |
+| XPT | UAH | reference | 72577.59 |
+| ZAR | UAH | reference | 2.7109 |
 
 Source: [Official rates published by NBU, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/nbu/). Rates are as printed by the central bank; AllRatesToday is not affiliated with it.
 <!-- daily-table:end -->
@@ -285,7 +285,7 @@ curl "https://allratestoday.com/api/v1/central-bank/nbu/latest?format=xml&api_ke
 - MCP server: `npx -y @allratestoday/central-bank-mcp` (stdio) or the hosted endpoint `https://allratestoday.com/api/mcp` — tools for official rates, history, cross-bank comparison and publication calendars
 - Already using the general SDK or MCP server? Since 2026-10-01 [`@allratestoday/sdk`](https://www.npmjs.com/package/@allratestoday/sdk) 1.4+ has `officialRates('nbu')` and [`@allratestoday/mcp-server`](https://www.npmjs.com/package/@allratestoday/mcp-server) 0.6+ has a `get_official_rates` tool — both return this source's latest table with no key, so you can add it without a second dependency
 - Claude Code plugin (no key): `/plugin marketplace add AllRates-Today/claude-code-plugin` then `/plugin install allratestoday@allratestoday` — bundles both MCP servers plus an `/official-rate nbu ...` command
-- Need dated tables or history for an evaluation? Agents can self-issue a trial key with no signup: `POST https://allratestoday.com/api/agent/keys` (send `Content-Type: application/json`) returns a 100-call key valid 7 days; the MCP servers expose it as `request_trial_key`
+- Evaluating? Agents can self-issue a trial key with no signup: `POST https://allratestoday.com/api/agent/keys` (send `Content-Type: application/json`) returns a 100-call key valid 7 days that covers the free-plan methods (latest table, pairs); dated tables and history need a [paid plan](https://allratestoday.com/pricing/). The MCP servers expose it as `request_trial_key`
 - Machine-readable site guide: [llms.txt](https://allratestoday.com/llms.txt) · [for-ai-agents](https://allratestoday.com/for-ai-agents/)
 
 ## ⚖️ Published vs derived rates
