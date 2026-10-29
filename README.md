@@ -47,55 +47,55 @@ The image is rendered live from the keyless endpoint above, so it follows the ce
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-10-28 by National Bank of Ukraine — 45 rates. Updated 2026-10-28.</summary>
+<summary>Table as text: published 2026-10-29 by National Bank of Ukraine — 45 rates. Updated 2026-10-29.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AED | UAH | reference | 12.4152 |
-| AUD | UAH | reference | 32.0715 |
-| AZN | UAH | reference | 26.8256 |
-| BDT | UAH | reference | 0.36879 |
-| CAD | UAH | reference | 32.5174 |
-| CHF | UAH | reference | 55.0429 |
-| CNY | UAH | reference | 6.8382 |
-| CZK | UAH | reference | 2.0887 |
-| DKK | UAH | reference | 6.8037 |
-| DZD | UAH | reference | 0.33777 |
-| EGP | UAH | reference | 0.8126 |
-| EUR | UAH | reference | 50.8522 |
-| GBP | UAH | reference | 60.7909 |
-| GEL | UAH | reference | 17.5793 |
-| HKD | UAH | reference | 5.8132 |
-| HUF | UAH | reference | 0.138441 |
-| IDR | UAH | reference | 0.0025116 |
-| ILS | UAH | reference | 14.9536 |
-| INR | UAH | reference | 0.47936 |
-| JPY | UAH | reference | 0.28896 |
-| KRW | UAH | reference | 0.034341 |
-| KZT | UAH | reference | 0.099682 |
+| AED | UAH | reference | 12.4128 |
+| AUD | UAH | reference | 32.0655 |
+| AZN | UAH | reference | 26.8229 |
+| BDT | UAH | reference | 0.36783 |
+| CAD | UAH | reference | 32.4778 |
+| CHF | UAH | reference | 54.9192 |
+| CNY | UAH | reference | 6.8381 |
+| CZK | UAH | reference | 2.0835 |
+| DKK | UAH | reference | 6.7924 |
+| DZD | UAH | reference | 0.33706 |
+| EGP | UAH | reference | 0.8123 |
+| EUR | UAH | reference | 50.7666 |
+| GBP | UAH | reference | 60.5858 |
+| GEL | UAH | reference | 17.5761 |
+| HKD | UAH | reference | 5.8115 |
+| HUF | UAH | reference | 0.138354 |
+| IDR | UAH | reference | 0.0025072 |
+| ILS | UAH | reference | 14.6147 |
+| INR | UAH | reference | 0.47875 |
+| JPY | UAH | reference | 0.28862 |
+| KRW | UAH | reference | 0.034006 |
+| KZT | UAH | reference | 0.100177 |
 | LBP | UAH | reference | 0.000508 |
-| MDL | UAH | reference | 2.5326 |
-| MXN | UAH | reference | 2.4493 |
-| MYR | UAH | reference | 11.152 |
-| NOK | UAH | reference | 4.8949 |
-| NZD | UAH | reference | 26.0134 |
-| PLN | UAH | reference | 11.5505 |
-| RON | UAH | reference | 9.5069 |
-| RSD | UAH | reference | 0.43275 |
-| SAR | UAH | reference | 12.1486 |
-| SEK | UAH | reference | 4.5912 |
-| SGD | UAH | reference | 35.5967 |
-| THB | UAH | reference | 1.35057 |
-| TND | UAH | reference | 15.1776 |
-| TRY | UAH | reference | 0.9159 |
-| USD | UAH | reference | 45.6008 |
-| VND | UAH | reference | 0.001765 |
-| XAG | UAH | reference | 2446.51 |
-| XAU | UAH | reference | 183452.88 |
-| XDR | UAH | reference | 61.6917 |
-| XPD | UAH | reference | 46600.19 |
-| XPT | UAH | reference | 69284.4 |
-| ZAR | UAH | reference | 2.7386 |
+| MDL | UAH | reference | 2.5259 |
+| MXN | UAH | reference | 2.4479 |
+| MYR | UAH | reference | 11.184 |
+| NOK | UAH | reference | 4.9068 |
+| NZD | UAH | reference | 25.5996 |
+| PLN | UAH | reference | 11.5261 |
+| RON | UAH | reference | 9.4871 |
+| RSD | UAH | reference | 0.43191 |
+| SAR | UAH | reference | 12.1497 |
+| SEK | UAH | reference | 4.5916 |
+| SGD | UAH | reference | 35.5626 |
+| THB | UAH | reference | 1.34978 |
+| TND | UAH | reference | 15.1518 |
+| TRY | UAH | reference | 0.9148 |
+| USD | UAH | reference | 45.5923 |
+| VND | UAH | reference | 0.0017639 |
+| XAG | UAH | reference | 2470.55 |
+| XAU | UAH | reference | 184747.11 |
+| XDR | UAH | reference | 61.6335 |
+| XPD | UAH | reference | 46701.42 |
+| XPT | UAH | reference | 70701.71 |
+| ZAR | UAH | reference | 2.7383 |
 
 </details>
 
@@ -260,6 +260,7 @@ The National Bank of Ukraine sets the hryvnia's official exchange rates for arou
 
 - Publisher's own page: [Official hryvnia exchange rates](https://bank.gov.ua/en/markets/exchangerates) · [bank.gov.ua/en](https://bank.gov.ua/en/)
 - Publication: every business day; the exact schedule, freshness status and any current delay are on the [National Bank of Ukraine rates page](https://allratestoday.com/central-bank-rates-api/nbu/)
+- In the API: usually by **13:25 UTC** (measured over the last 11 publications). Schedule a sync at or after that time and retry hourly until `rate_date` moves; every response carries the same figure as `available_by_utc` — see [when to poll](https://allratestoday.com/docs/#when-to-poll)
 - Values are stored unmodified, with the publisher's own `rate_date` on every row — see the [methodology](https://allratestoday.com/official-rates-methodology/)
 
 ## 🧭 Reading the numbers
