@@ -24,78 +24,63 @@
 
 Get a free API key at [allratestoday.com/register](https://allratestoday.com/register) — no credit card required. Latest rates are on every plan, including free.
 
-## ⚡ Try it without a key
-
-The latest National Bank of Ukraine table is also served keyless, CORS-open and edge-cached, for evaluation, embeds and AI agents:
-
-```bash
-curl "https://allratestoday.com/api/open/central-bank/nbu?source=USD&target=UAH"
-```
-
-```js
-const r = await fetch('https://allratestoday.com/api/open/central-bank/nbu').then((x) => x.json());
-console.log(r.rate_date, r.rates.length); // the central bank's latest published table, no key
-```
-
-The open endpoint serves the *latest* table only (JSON by default; add `?format=csv`, `xml` or `xlsx` for a file) and is free to use with a visible, followable link where the rates are shown: `<a href="https://allratestoday.com">Exchange rates by AllRatesToday</a>` (terms: <https://allratestoday.com/terms/#attribution>). The client below uses the keyed API, which adds point-in-time tables and history; with a key the link is appreciated, not required.
-
 ## 📈 Latest published table
 
 [![Latest National Bank of Ukraine table](https://allratestoday.com/api/open/central-bank/nbu/table.svg)](https://allratestoday.com/central-bank-rates-api/nbu/)
 
-The image is rendered live from the keyless endpoint above, so it follows the central bank's publications on npm and on GitHub alike without a new release. The same table as text is folded below for search and copy-paste: on GitHub [a daily Action](.github/workflows/daily-table.yml) refreshes it whenever the central bank publishes a new table; on npm it is as of the package's publish date.
+The image is rendered live from the keyless endpoint, so it follows the central bank's publications on npm and on GitHub alike without a new release. The same table as text is folded below for search and copy-paste: on GitHub [a daily Action](.github/workflows/daily-table.yml) refreshes it whenever the central bank publishes a new table; on npm it is as of the package's publish date.
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-10-29 by National Bank of Ukraine — 45 rates. Updated 2026-10-29.</summary>
+<summary>Table as text: published 2026-10-30 by National Bank of Ukraine — 45 rates. Updated 2026-10-30.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AED | UAH | reference | 12.4128 |
-| AUD | UAH | reference | 32.0655 |
-| AZN | UAH | reference | 26.8229 |
-| BDT | UAH | reference | 0.36783 |
-| CAD | UAH | reference | 32.4778 |
-| CHF | UAH | reference | 54.9192 |
-| CNY | UAH | reference | 6.8381 |
-| CZK | UAH | reference | 2.0835 |
-| DKK | UAH | reference | 6.7924 |
-| DZD | UAH | reference | 0.33706 |
+| AED | UAH | reference | 12.3957 |
+| AUD | UAH | reference | 31.988 |
+| AZN | UAH | reference | 26.7859 |
+| BDT | UAH | reference | 0.36718 |
+| CAD | UAH | reference | 32.5323 |
+| CHF | UAH | reference | 54.9492 |
+| CNY | UAH | reference | 6.8337 |
+| CZK | UAH | reference | 2.0824 |
+| DKK | UAH | reference | 6.7811 |
+| DZD | UAH | reference | 0.33629 |
 | EGP | UAH | reference | 0.8123 |
-| EUR | UAH | reference | 50.7666 |
-| GBP | UAH | reference | 60.5858 |
-| GEL | UAH | reference | 17.5761 |
-| HKD | UAH | reference | 5.8115 |
-| HUF | UAH | reference | 0.138354 |
-| IDR | UAH | reference | 0.0025072 |
-| ILS | UAH | reference | 14.6147 |
-| INR | UAH | reference | 0.47875 |
-| JPY | UAH | reference | 0.28862 |
-| KRW | UAH | reference | 0.034006 |
-| KZT | UAH | reference | 0.100177 |
+| EUR | UAH | reference | 50.6796 |
+| GBP | UAH | reference | 60.6491 |
+| GEL | UAH | reference | 17.5518 |
+| HKD | UAH | reference | 5.8025 |
+| HUF | UAH | reference | 0.138491 |
+| IDR | UAH | reference | 0.0025101 |
+| ILS | UAH | reference | 14.6052 |
+| INR | UAH | reference | 0.47795 |
+| JPY | UAH | reference | 0.28809 |
+| KRW | UAH | reference | 0.034017 |
+| KZT | UAH | reference | 0.100506 |
 | LBP | UAH | reference | 0.000508 |
-| MDL | UAH | reference | 2.5259 |
-| MXN | UAH | reference | 2.4479 |
-| MYR | UAH | reference | 11.184 |
-| NOK | UAH | reference | 4.9068 |
-| NZD | UAH | reference | 25.5996 |
-| PLN | UAH | reference | 11.5261 |
-| RON | UAH | reference | 9.4871 |
-| RSD | UAH | reference | 0.43191 |
-| SAR | UAH | reference | 12.1497 |
-| SEK | UAH | reference | 4.5916 |
-| SGD | UAH | reference | 35.5626 |
-| THB | UAH | reference | 1.34978 |
-| TND | UAH | reference | 15.1518 |
-| TRY | UAH | reference | 0.9148 |
-| USD | UAH | reference | 45.5923 |
-| VND | UAH | reference | 0.0017639 |
-| XAG | UAH | reference | 2470.55 |
-| XAU | UAH | reference | 184747.11 |
-| XDR | UAH | reference | 61.6335 |
-| XPD | UAH | reference | 46701.42 |
-| XPT | UAH | reference | 70701.71 |
-| ZAR | UAH | reference | 2.7383 |
+| MDL | UAH | reference | 2.5296 |
+| MXN | UAH | reference | 2.4274 |
+| MYR | UAH | reference | 11.2156 |
+| NOK | UAH | reference | 4.9055 |
+| NZD | UAH | reference | 25.5515 |
+| PLN | UAH | reference | 11.5328 |
+| RON | UAH | reference | 9.4851 |
+| RSD | UAH | reference | 0.43124 |
+| SAR | UAH | reference | 12.1322 |
+| SEK | UAH | reference | 4.6062 |
+| SGD | UAH | reference | 35.522 |
+| THB | UAH | reference | 1.3486 |
+| TND | UAH | reference | 15.1297 |
+| TRY | UAH | reference | 0.9135 |
+| USD | UAH | reference | 45.5293 |
+| VND | UAH | reference | 0.0017629 |
+| XAG | UAH | reference | 2386.76 |
+| XAU | UAH | reference | 183039.35 |
+| XDR | UAH | reference | 61.5577 |
+| XPD | UAH | reference | 45695.66 |
+| XPT | UAH | reference | 67662.46 |
+| ZAR | UAH | reference | 2.7351 |
 
 </details>
 
