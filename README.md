@@ -32,55 +32,55 @@ The image is rendered live from the keyless endpoint, so it follows the central 
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-11-18 by National Bank of Ukraine — 45 rates. Updated 2026-11-18.</summary>
+<summary>Table as text: published 2026-11-19 by National Bank of Ukraine — 45 rates. Updated 2026-11-19.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AED | UAH | reference | 12.3449 |
-| AUD | UAH | reference | 30.5439 |
-| AZN | UAH | reference | 26.6805 |
-| BDT | UAH | reference | 0.3635 |
-| CAD | UAH | reference | 31.7147 |
-| CHF | UAH | reference | 54.0255 |
-| CNY | UAH | reference | 6.802 |
-| CZK | UAH | reference | 2.0433 |
-| DKK | UAH | reference | 6.6695 |
-| DZD | UAH | reference | 0.33085 |
-| EGP | UAH | reference | 0.8442 |
-| EUR | UAH | reference | 49.8561 |
-| GBP | UAH | reference | 59.8196 |
-| GEL | UAH | reference | 17.4805 |
-| HKD | UAH | reference | 5.779 |
-| HUF | UAH | reference | 0.136674 |
-| IDR | UAH | reference | 0.0024838 |
-| ILS | UAH | reference | 13.9558 |
-| INR | UAH | reference | 0.48506 |
-| JPY | UAH | reference | 0.28494 |
-| KRW | UAH | reference | 0.03392 |
-| KZT | UAH | reference | 0.102083 |
-| LBP | UAH | reference | 0.000506 |
-| MDL | UAH | reference | 2.4791 |
-| MXN | UAH | reference | 2.4528 |
-| MYR | UAH | reference | 11.0771 |
-| NOK | UAH | reference | 4.7026 |
-| NZD | UAH | reference | 24.9318 |
-| PLN | UAH | reference | 11.3232 |
-| RON | UAH | reference | 9.3226 |
-| RSD | UAH | reference | 0.42382 |
-| SAR | UAH | reference | 12.0848 |
-| SEK | UAH | reference | 4.4878 |
-| SGD | UAH | reference | 35.19 |
-| THB | UAH | reference | 1.3408 |
-| TND | UAH | reference | 14.8548 |
-| TRY | UAH | reference | 0.8994 |
-| USD | UAH | reference | 45.3436 |
-| VND | UAH | reference | 0.0017615 |
-| XAG | UAH | reference | 2154.76 |
-| XAU | UAH | reference | 175133.12 |
-| XDR | UAH | reference | 60.9983 |
-| XPD | UAH | reference | 44582.89 |
-| XPT | UAH | reference | 65853 |
-| ZAR | UAH | reference | 2.6774 |
+| AED | UAH | reference | 12.3064 |
+| AUD | UAH | reference | 30.4049 |
+| AZN | UAH | reference | 26.5957 |
+| BDT | UAH | reference | 0.36235 |
+| CAD | UAH | reference | 31.5771 |
+| CHF | UAH | reference | 53.6734 |
+| CNY | UAH | reference | 6.7804 |
+| CZK | UAH | reference | 2.032 |
+| DKK | UAH | reference | 6.632 |
+| DZD | UAH | reference | 0.32961 |
+| EGP | UAH | reference | 0.8402 |
+| EUR | UAH | reference | 49.5717 |
+| GBP | UAH | reference | 59.5028 |
+| GEL | UAH | reference | 17.4258 |
+| HKD | UAH | reference | 5.7611 |
+| HUF | UAH | reference | 0.134753 |
+| IDR | UAH | reference | 0.0024794 |
+| ILS | UAH | reference | 13.8884 |
+| INR | UAH | reference | 0.48361 |
+| JPY | UAH | reference | 0.28372 |
+| KRW | UAH | reference | 0.033929 |
+| KZT | UAH | reference | 0.101657 |
+| LBP | UAH | reference | 0.000504 |
+| MDL | UAH | reference | 2.4647 |
+| MXN | UAH | reference | 2.4413 |
+| MYR | UAH | reference | 10.9813 |
+| NOK | UAH | reference | 4.6673 |
+| NZD | UAH | reference | 24.8286 |
+| PLN | UAH | reference | 11.2393 |
+| RON | UAH | reference | 9.2693 |
+| RSD | UAH | reference | 0.42137 |
+| SAR | UAH | reference | 12.0488 |
+| SEK | UAH | reference | 4.45 |
+| SGD | UAH | reference | 35.0476 |
+| THB | UAH | reference | 1.33104 |
+| TND | UAH | reference | 14.7751 |
+| TRY | UAH | reference | 0.8961 |
+| USD | UAH | reference | 45.202 |
+| VND | UAH | reference | 0.0017575 |
+| XAG | UAH | reference | 2067.43 |
+| XAU | UAH | reference | 170292.87 |
+| XDR | UAH | reference | 60.7444 |
+| XPD | UAH | reference | 42963.01 |
+| XPT | UAH | reference | 62306.98 |
+| ZAR | UAH | reference | 2.6398 |
 
 </details>
 
